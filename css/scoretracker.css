@@ -1,0 +1,160 @@
+body {  
+  background-image: url("../images/background.jpg");
+  padding: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+
+header {  
+  background-image: url("../images/index.jpg"); 
+  text-align: center;
+  max-width:100%;
+  height:140px;
+  border-radius: 4px;
+}
+
+
+footer {
+  color: white;
+}
+
+main > div {
+  display: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 3px;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  text-align: center;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/* Style the links inside the navigation bar */
+
+nav a {
+  display: block;
+  background-color: lightblue;
+  float: left;
+  color: black;
+  padding:12px 28px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+nav {
+  
+  padding-top: 3px;
+  display: block;
+  padding-bottom: 5px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Change the color of links on hover */
+
+nav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+
+ .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.flag {
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  margin-bottom: 2px;
+  margin-top: -2px;
+  padding-right: 2px;
+}
+
+.one-team span, .team span {
+display: inline-block;
+width: 120px;
+text-align: left;
+}
+
+.group-header {
+  border-bottom: 1px solid rgba(0,0,0,.54);
+  width: 50%;
+  margin: 0 auto 10px auto;
+  color: rgba(0,0,0,.54);
+  font-size: 14px;
+}
+
+.country-header { 
+  margin-right: 37px;
+}
+
+.day {
+  float: left;
+  padding-bottom: 10px;
+  width: 33%;
+  
+}
+
+.group-table {
+  float: left;
+  padding-bottom: 10px;
+  width:  25%;
+}
+
+span.points {
+  width: auto;
+}
+
+input {
+  width: 15px;
+}
+
+main {
+  text-align: center;
+  background-color: azure;
+  border-radius: 4px;
+}
+
+main:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+body .standing {
+  margin-left: 5%;
+  background-color: bisque;
+  width: 20%;
+  text-align: center;
+}
+
+span.total-points {
+  width: auto;
+}
+
+@media screen and (max-width:640px){
+  .day {
+    width: 100%;
+  }
+
+  .group-table {
+    width: 100%;
+  }
+
+  nav a {    
+        padding:12px 45%;
+        
+  }
+}
